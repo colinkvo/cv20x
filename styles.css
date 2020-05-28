@@ -1,0 +1,312 @@
+/*
+5/28/2020
+20 Time Project
+CSS for all HTML in the project
+*/
+
+
+/*
+--------- main tag CSS ---------
+*/
+body { 
+    background-color:#1c1c1b;
+    color: #666666;
+    font-family: Helvetica, cursive, sans-serif;
+ }
+
+ header { 
+    color: #E6E6FA;
+    font-family: Helvetica, cursive, sans-serif;      
+ }
+
+ a {
+    font-weight: 100;
+    color: white;
+ } 
+
+li a {
+    font-family: Helvetica, cursive, sans-serif;
+    font-weight: 500;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+h1 { 
+    margin-bottom: 0; 
+    margin-top: 0;
+}
+
+h2 {
+   text-align: center; 
+   color: white;
+   font-family: Helvetica, cursive, sans-serif;
+}
+
+
+h6 {
+   font-family: Helvetica, cursive, sans-serif;
+   margin-bottom: 0;
+   margin-top: 0;
+}
+
+dt { color: #000033;
+   font-family: Helvetica, cursive, sans-serif;
+}
+
+footer {
+   margin-right: auto;
+   margin-left: auto;
+}
+
+
+ /*
+ --------- main classes and ids ---------
+ */
+
+ .top-left {
+         position: absolute;
+         top: 100px;
+         right: 150px;
+         text-indent: 5em;
+         letter-spacing: 2px;
+         word-spacing: 5px;
+         text-shadow: 2px 2px black;
+         font-weight: 700;
+         font-size: 75px;
+         color: whitesmoke;
+ }
+
+ .squircle {
+     border-radius: 25px 200px;
+     box-shadow: 5px 5px whitesmoke;  
+ }
+
+ .squircleImg {  
+     border-radius: 25px 25px;
+     display: block;
+     margin: auto;
+     height: 350px;
+     width: 350px;
+     margin-top: -6px;
+ }
+
+ .squircleImgFull {  
+    border-radius: 25px 25px;
+    display: block;
+    margin: auto;
+    height: 800px;
+    width: 800px;
+    margin-bottom: 10px;
+}
+
+div.squircleImgFull:last-child {
+    margin-bottom: 500px;
+}
+
+ .btnSquircle {
+     border-radius: 25px 50px;
+     box-shadow: 1px 1px whitesmoke;
+ }
+
+ 
+
+
+
+.footer { 
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: 2.5rem;
+    margin-left: 20px;
+}
+
+.credit {
+    float: right;
+    font-style: italic;
+    margin-right: 50px;
+}
+
+ #whitesmoke {
+     color: whitesmoke;
+ }
+
+ #link {
+     color: blue;
+     font-weight: 700;
+ }
+
+/* 
+--------- navbar ---------
+*/
+
+.active {
+    background-color: #111;
+    color: whitesmoke;
+}
+
+a:hover, a:active {
+    position: relative;
+    font-weight: 700;
+    border-color: black;
+}
+a:link {
+    text-decoration: none;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #242321;
+    position: fixed;
+  }
+  
+  .li-navbar {
+    float: left;
+    border-right:1px solid black;
+  }
+  
+  li.li-navbar:last-child {
+    border-right: none;
+  }
+  
+  
+  
+  li a:hover {
+    background-color: #111;
+    color: whitesmoke;
+  }
+
+  .linkSpecial{
+      background-color: none;
+      text-align: left;
+  }
+
+  li.linkSpecial a:hover{
+    background-color: whitesmoke;
+    color: black;
+    text-align: left;
+}
+
+.nav {
+    background-color: grey; 
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    font-family: Helvetica, cursive, sans-serif;
+    border-radius: 25px 75px;
+    margin: 0;
+    padding: 0;
+  }
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+
+
+ /*
+ --------- containers ---------
+ */
+
+ div.container2 {
+     margin-right: auto;
+     margin-left: auto;
+     list-style-type: none;
+     width: 800px;
+     margin-top: 100px;
+     margin-bottom: 100px;
+     padding-bottom: 50px;
+     overflow: hidden;
+     background-color: #242321;
+     border-radius: 25px;
+     box-shadow: 0px 5px whitesmoke;
+ }
+
+ div.container3 {
+    margin-right: auto;
+    margin-left: auto;
+    list-style-type: none;
+    width: 800px;
+    height: 500px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    box-shadow: 0px 5px #000033;
+}
+
+div.container4 {
+    margin-right: auto;
+    margin-left: auto;
+    list-style-type: none;
+    width: 500px;
+    margin-top: 100px;
+    margin-bottom: -30px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    box-shadow: 0px 5px #000033;
+}
+
+ .containerText {
+     color: #c2bfb8;
+ }
+
+p.containerText {
+    margin-left: 18px;
+    margin-right: 18px;
+    text-align: justify;
+    line-height: 2;
+}
+
+dt.containerText {
+    margin-left: 18px;
+    margin-right: 18px;
+    text-align: justify;
+}
+
+dd.containerText {
+    margin-left: 23px;
+    margin-right: 18px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+li.containerText {
+    margin-bottom: 8px;
+    color: white;
+}
+
+ul.containerText {
+    text-align: justify;
+    margin-right: 15px;
+}
+
+h1.containerText {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+h3.containerText {
+    margin-left: 20px;
+    color: white;
+}
+
+.content-wrap {
+   padding-bottom: 2.5rem;
+}
+
+ #page-container {
+    position: relative;
+    min-height: 100vh;
+  }
