@@ -134,7 +134,8 @@ div.squircleImgFull:last-child {
  }
 
  #link {
-     color: blue;
+     color: whitesmoke;
+     text-decoration: underline;
      font-weight: 700;
  }
 
@@ -174,10 +175,15 @@ a:link {
     border-right: none;
   }
   
-  
-  
-  li a:hover {
+
+    li.li-navbar a:hover { 
     background-color: #111;
+    text-decoration: underline;
+    color: whitesmoke;
+  }
+  
+  
+  li a:hover { 
     color: whitesmoke;
   }
 
@@ -187,8 +193,8 @@ a:link {
   }
 
   li.linkSpecial a:hover{
-    background-color: whitesmoke;
-    color: black;
+    text-decoration: underline;
+
     text-align: left;
 }
 
@@ -262,6 +268,7 @@ div.container4 {
  }
 
 p.containerText {
+    color: whitesmoke;
     margin-left: 18px;
     margin-right: 18px;
     text-align: justify;
